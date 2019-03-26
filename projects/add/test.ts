@@ -1,17 +1,15 @@
 import { add } from "."
 
 describe("add", () => {
-  it("takes 1️⃣  and 2️⃣  then gives back 3️⃣ ", () => {
-    // Arrange
-    const valA = 1
-    const valB = 2
+  it("takes 1 and 2 then gives back 3", () => {
+    const val1 = 1
+    const val2 = 2
 
-    // Act
-    const received = add(valA, valB)
+    const received = add(val1, val2)
 
-    // Assert
     const expected = 3
     expect(received).toEqual(expected)
+
   })
 })
 
